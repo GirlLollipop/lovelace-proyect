@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #3E214C;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: #6432CE;
+}
+
+
+div.login{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(90deg, #937DC2 0%, #995BAC 100%);
+}
+
+.form-login{
+    background-color: #EFEFEF;
+    height: 100vh;
+}
+
+#login-left, #login-right {
+    padding: 2rem;
+}
+
+#login-right, #login-right label  {
+    width: 100%;
+}
+
+#login-right{
+   text-align: left;
+}
+
+#btn-login, .btn-p{
+    background-color: #3E214C;
+}
+
+#btn-login:hover, .btn-p:hover {
+    background-color: #6432CE;
+}
+
+#btn-cancell{
+    border: solid #3E214C;
+    color: #3E214C;
+}
+
+#btn-cancell:hover{
+    border: solid #6432CE;
+    color: white;
+    background-color: #6432CE;
+}
+
+.icon{
+ width: 50%;
+ margin: .5rem;
+ color: #21344c;
+}
+
+#menu-side{
+    margin-top: 1rem;
+}
+
+
+
